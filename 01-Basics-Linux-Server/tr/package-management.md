@@ -40,6 +40,38 @@ sudo apt install paket-adi
 sudo apt install curl
 ```
 
+### 3.1 Örnek: Git Kurulumu
+Git, versiyon kontrol sistemi olarak yazılım geliştirmede çok önemlidir.
+Ubuntu’ya Git yüklemek için:
+```bash
+# Paket listelerini güncelle
+sudo apt update
+
+# Git’i yükle
+sudo apt install git -y
+
+# Kurulum doğrulama
+git --version
+
+```
+
+Beklenen çıktı (örnek):
+```bash
+git version 2.43.0
+```
+
+### 3.2 Git İlk Yapılandırma
+Kurulum sonrası Git’e kullanıcı adınızı ve e-posta adresinizi tanımlayın:
+```bash
+git config --global user.name "DevrimMehmet"
+git config --global user.email "devrimmehmet@gmail.com"
+```
+
+Ayarları kontrol etmek için:
+```bash
+git config --list
+```
+
 
 ## 4. Paketi Kaldırma
 Format:
@@ -94,34 +126,3 @@ Kullanılmayan bağımlılıkları silmek için:
 sudo apt autoremove
 ```
 
-## 8. Örnek: Git Kurulumu
-Git, versiyon kontrol sistemi olarak yazılım geliştirmede çok önemlidir.
-Ubuntu’ya Git yüklemek için:
-```bash
-# Paket listelerini güncelle
-sudo apt update
-
-# Git’i yükle
-sudo apt install git -y
-
-# Kurulum doğrulama
-git --version
-
-```
-
-Beklenen çıktı (örnek):
-```bash
-git version 2.43.0
-```
-
-## 9. Git İlk Yapılandırma
-Kurulum sonrası Git’e kullanıcı adınızı ve e-posta adresinizi tanımlayın:
-```bash
-git config --global user.name "DevrimMehmet"
-git config --global user.email "devrimmehmet@gmail.com"
-```
-
-Ayarları kontrol etmek için:
-```bash
-git config --list
-```
