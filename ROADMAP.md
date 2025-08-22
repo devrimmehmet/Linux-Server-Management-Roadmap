@@ -1,4 +1,4 @@
-# Ubuntu 24.04.3 Server Full-Stack & DevOps + UI Management Roadmap
+# Ubuntu 22.04.5 Server Full-Stack & DevOps + UI Management Roadmap
 
 This file shows which topics should be placed in which folders and under which filenames according to the project folder structure.
 
